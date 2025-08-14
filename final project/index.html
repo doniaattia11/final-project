@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Library</title>
+
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <a href="#" class="logo">My Library</a>
+    <div class="division">
+      <a href="#">My Account</a>
+      <a href="#">Services</a>
+    </div>
+  </header>
+
+  <section class="main">
+    <h1>Welcome to My Library</h1>
+    <form class="icons" id="categoryForm">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <input type="text" id="categoryInput" placeholder="Enter book category">
+      <input type="submit" value="Search">
+    </form>
+    <div class="quote" id="result"></div>
+  </section>
+
+  <!-- External JS -->
+  <script src="script.js"></script>
+</body>
+</html>

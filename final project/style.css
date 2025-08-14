@@ -1,0 +1,105 @@
+* {
+  font-family: "Lobster", sans-serif;
+  font-weight: 1000;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: url(https://png.pngtree.com/background/20230516/original/pngtree-large-library-with-wooden-shelves-and-books-picture-image_2599239.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+}
+
+header {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 200px;
+}
+
+.logo {
+  text-decoration: none;
+  color: purple;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.8em;
+}
+
+.logo:hover { 
+  color: white; 
+}
+
+.division a {
+  text-decoration: none;
+  color: purple;
+  font-weight: 500;
+  font-size: 1.1em;
+  padding-left: 30px;
+}
+
+.division a:hover { 
+  color: white; 
+}
+
+section {
+  padding: 100px 200px;
+  text-align: center;
+}
+
+.main h1 {
+  color: white;
+  font-size: 2em;
+  font-weight: 600;
+  padding-bottom: 1.8em;
+}
+
+.icons {
+  background-color: #dbc1e1;
+  border-radius: 150px;
+  padding: 11px;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.icons i {
+  padding: 10px;
+  color: purple;
+}
+
+.icons input[type="text"] {
+  flex: 1;
+  background-color: inherit;
+  border: none;
+  outline: none;
+  padding: 0px 5px;
+}
+
+.icons input[type="submit"] {
+  background-color: purple;
+  color: white;
+  border-radius: 150px;
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.icons input[type="submit"]:hover {
+  background-color: mediumorchid;
+}
+
+.quote {
+  margin-top: 40px;
+  font-size: 1.5em;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
